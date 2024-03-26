@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/text_name_product"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="38sp"
+        android:textColor="@color/text"
+        />
+    <TextView
+        android:id="@+id/text_cost_product"
+        android:textColor="@color/text"
+        android:layout_width="40sp"
+        android:layout_height="wrap_content"
+        android:textSize="38sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+
+    <ImageButton
+        android:id="@+id/buckBtn2"
+        android:layout_width="10sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:backgroundTint="@color/background"
+        android:contentDescription="delete"
+        android:cropToPadding="true"
+        android:drawingCacheQuality="low"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        app:tint="#FF970606" />
+
+
+</LinearLayout>

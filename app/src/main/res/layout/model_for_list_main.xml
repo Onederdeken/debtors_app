@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/model_for_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_for_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text"
+        android:layout_weight="1"
+        android:layout_marginStart="15sp"
+        android:textSize="38sp" />
+
+    <ImageButton
+        android:id="@+id/buckBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="0"
+        android:backgroundTint="@color/background"
+        android:contentDescription="delete"
+        android:cropToPadding="true"
+
+        android:drawingCacheQuality="low"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        app:tint="#FF970606" />
+
+</LinearLayout>
+

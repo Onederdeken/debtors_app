@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:imeOptions="actionGo"
+    android:onClick="saved"
+    tools:context=".Add_Activity">
+
+    <RelativeLayout
+        android:id="@+id/top_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20sp"
+            android:backgroundTint="@color/background"
+            android:contentDescription="ок"
+            android:onClick="saved"
+            app:srcCompat="@drawable/icons8____48" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/create_debtor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_menu">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="Create debtor"
+            android:textColor="@color/text"
+            android:textSize="50sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_debtor"
+        android:layout_marginTop="30sp">
+
+        <EditText
+            android:id="@+id/debtor_name"
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_marginHorizontal="10sp"
+            android:hint="Введите имя"
+            android:textColorHint="@color/hint" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

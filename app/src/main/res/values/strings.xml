@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">debtors</string>
+    <string name="top_bar">Должники</string>
+    <string name="medium_bar">нет должников</string>
+    <string name="btn_text">+</string>
+    <string name="name">Имя</string>
+    <string name="left_col">Название</string>
+    <string name="right_col">стоимость</string>
+    <string name="total">total:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
